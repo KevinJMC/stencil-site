@@ -55,14 +55,14 @@ Each output target, form of bundling and distribution each have their own pros a
 - Only the components used on that page will actually be requested and lazy-loaded.
 
 
-### Import the `dist` library using a bundler
+### Import the 'dist' library using a bundler
 - Run `npm install my-name --save`
 - Add an `import` within the root component: `import my-component`;
 - Stencil will automatically setup the lazy-loading capabilities for the Stencil library.
 - Then you can use the element anywhere in your template, JSX, html etc.
 
 
-### Import the `dist` library into another Stencil app
+### Import the 'dist' library into another Stencil app
 - Run `npm install my-name --save`
 - Add an `import` within the root component: `import my-component`;
 - Stencil will automatically setup the lazy-loading capabilities for the Stencil library.
